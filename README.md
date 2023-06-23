@@ -1,10 +1,10 @@
-# Very short description of the package
+# Google Analytics For Adminetic Admin Panel
+
+![Adminetic Google Analytics](https://github.com/pratiksh404/adminetic-google-analytics/blob/main/screenshots/banner.jpg)
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/adminetic/google-analytics.svg?style=flat-square)](https://packagist.org/packages/adminetic/google-analytics)
 [![Total Downloads](https://img.shields.io/packagist/dt/adminetic/google-analytics.svg?style=flat-square)](https://packagist.org/packages/adminetic/google-analytics)
-![GitHub Actions](https://github.com/adminetic/google-analytics/actions/workflows/main.yml/badge.svg)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
 
 ## Installation
 
@@ -14,10 +14,12 @@ You can install the package via composer:
 composer require adminetic/google-analytics
 ```
 
+Please follow further steps by following [Spatie Google Analytics](https://github.com/spatie/laravel-analytics)
+
 ## Usage
 
 ```php
-// Usage description here
+@livewire('adminetic.google-analytics')
 ```
 
 ### Testing
@@ -41,12 +43,9 @@ If you discover any security related issues, please email pratikdai404@gmail.com
 ## Credits
 
 -   [Pratik Shrestha](https://github.com/adminetic)
+-   [Spatie](https://github.com/spatie/laravel-analytics)
 -   [All Contributors](../../contributors)
 
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
-
-## Laravel Package Boilerplate
-
-This package was generated using the [Laravel Package Boilerplate](https://laravelpackageboilerplate.com).
