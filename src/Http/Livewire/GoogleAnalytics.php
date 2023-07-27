@@ -32,7 +32,7 @@ class GoogleAnalytics extends Component
     }
     public function render()
     {
-        return view('livewire.google-analytics');
+        return view('google_analytic::livewire.google-analytics');
     }
 
     public function initializeGoogleAnalytics()
