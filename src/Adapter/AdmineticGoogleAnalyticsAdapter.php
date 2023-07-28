@@ -46,4 +46,9 @@ class AdmineticGoogleAnalyticsAdapter implements PluginInterface
             ]
         ];
     }
+
+    public function myMenu(): array
+    {
+        return  [];
+    }
 }
