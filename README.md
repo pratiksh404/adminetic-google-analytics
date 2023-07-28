@@ -13,6 +13,16 @@ You can install the package via composer:
 ```bash
 composer require adminetic/google-analytics
 ```
+## Inject Adapter
+
+Add `AdmineticGoogleAnalyticsAdapter` in `config/adminetic.php`
+
+```bash
+  // Plugin Adapters
+    'adapters' => [
+        Adminetic\GoogleAnalytics\Adapter\AdmineticGoogleAnalyticsAdapter::class
+    ],
+```
 
 Please follow further steps by following [Spatie Google Analytics](https://github.com/spatie/laravel-analytics)
 
